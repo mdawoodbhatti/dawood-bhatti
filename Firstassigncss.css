@@ -1,0 +1,45 @@
+body {
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 16px;
+}
+#light{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+    margin: 10px 0 20px;
+  }
+
+  h2{
+    color: purple;
+  }
+
+  h1{
+    color: purple;
+  }
+
+  .double-line {
+    position: relative;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .double-line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: black;         
+    box-shadow: 0 5px 0 0 black;       
+  }
+  
